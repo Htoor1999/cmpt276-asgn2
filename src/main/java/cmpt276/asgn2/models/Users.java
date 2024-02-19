@@ -1,7 +1,7 @@
 package cmpt276.asgn2.models;
 
 public class Users {
-    private string name;
+    private String name;
     private int id;
 
     public Users(){
