@@ -20,8 +20,8 @@ public class UsersController {
         System.out.println("Getting all users");
        //get all users from database
         List<Users> users = new ArrayList<>();
-        users.add(new Users("bobby","3001"));
-        users.add(new Users("john","3002"));
+        users.add(new Users("bobby",3001));
+        users.add(new Users("john",3002));
         //end of database call
 
         model.addAttribute("us", users);
